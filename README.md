@@ -1,37 +1,63 @@
-# Hospital Voice Assistant
+# 🏥 Hospital Voice Assistant
 
-A Python-based voice assistant for hospital reception systems.
+An AI-powered hospital receptionist assistant built using Flask, JavaScript Speech APIs, and deployed on Render.
 
-## Features
+## 🌐 Live Demo
 
-* Voice command recognition
-* Voice responses
-* Appointment information
-* Emergency support information
-* Doctor availability
-* Insurance support
+YOUR_RENDER_URL_HERE
 
-## Installation
+Example:
 
-Install Python 3.11
+https://hospital-voiceassistant.onrender.com
 
-Install dependencies:
+---
+
+## ✨ Features
+
+* 🎤 Voice input
+* 🔊 Voice responses
+* 🏥 Hospital reception Q&A
+* 📅 Appointment information
+* 🚑 Emergency assistance
+* 💊 Pharmacy details
+* 🧠 AI-style interaction
+* 🌍 Accessible from any device
+
+---
+
+## 🛠 Tech Stack
+
+* Python
+* Flask
+* HTML/CSS/JavaScript
+* Browser Speech Recognition API
+* Render Deployment
+
+---
+
+## 🚀 Run Locally
 
 ```bash
 pip install -r requirements.txt
+py -3.11 app.py
 ```
 
-## Run
+Open:
 
-```bash
-py -3.11 hospital_voice_assistant.py
+```txt
+http://127.0.0.1:5000
 ```
 
-## Example Commands
+---
 
-* Book appointment
-* Emergency
-* Doctor availability
-* Insurance
-* Goodbye
+## 📦 Deployment
+
+Hosted on Render.
+
+---
+
+## 👨‍💻 Author
+
+Shlok Salunkhe
+
 
