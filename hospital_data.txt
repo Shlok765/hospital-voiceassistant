@@ -37,3 +37,112 @@ what is your website: Our website is www.cityhospital.gov where you can find doc
 do you have ambulance services: Yes, we have 24/7 ambulance services equipped with life support systems. For emergency ambulance, dial (555) 987-6543.
 what is your blood bank timing: Our blood bank is open 24/7 for emergency donations and donations are accepted from 8:00 AM to 5:00 PM daily.
 default: I'm sorry, I didn't understand your question. Please try rephrasing or ask about visiting hours, doctor availability, appointment booking, insurance, or hospital facilities.
+```txt
+hello: Hello! Welcome to City Hospital Reception. How can I assist you today?
+
+appointment: You can book appointments between 9 AM and 5 PM from Monday to Saturday.
+
+doctor availability: Doctors are available from Monday to Saturday. Specialist consultations require prior appointments.
+
+emergency: Emergency services are available twenty four hours a day seven days a week.
+
+ambulance: Ambulance services are available 24/7. Please call the emergency desk immediately.
+
+insurance: We accept most major health insurance providers including cashless treatments.
+
+pharmacy: Our pharmacy is open daily from 8 AM to 10 PM.
+
+billing: Billing services are available at the ground floor reception counter.
+
+payment methods: We accept cash, debit cards, credit cards, UPI, and online payments.
+
+lab test: Laboratory tests are available from 7 AM to 8 PM.
+
+blood test: Blood sample collection starts at 7 AM every day.
+
+mri scan: MRI scans are available with prior booking.
+
+ct scan: CT scan services are available twenty four hours.
+
+xray: X-Ray services are available in the radiology department.
+
+icu: ICU visiting hours are from 4 PM to 6 PM.
+
+visiting hours: General visiting hours are from 4 PM to 7 PM daily.
+
+room charges: Room charges vary depending on room type including general ward, semi private, and deluxe rooms.
+
+admission process: Patients can complete admission at the reception desk with valid ID proof.
+
+discharge process: Discharge usually takes two to four hours after doctor approval.
+
+reports: Medical reports can be collected from the records department.
+
+covid test: COVID testing is available every day.
+
+vaccination: Vaccination services are available in the preventive care department.
+
+cardiology: The cardiology department is located on the second floor.
+
+orthopedic: Orthopedic specialists are available Monday to Friday.
+
+neurology: Neurology consultations are available with prior appointment.
+
+dentist: Dental services are available from 10 AM to 6 PM.
+
+eye specialist: Ophthalmology services are available daily except Sunday.
+
+skin specialist: Dermatology consultations are available in OPD block B.
+
+pediatrician: Pediatric doctors are available from 9 AM to 8 PM.
+
+gynecologist: Gynecology department is available for consultation and maternity care.
+
+maternity: Maternity and delivery services are available twenty four hours.
+
+operation theatre: Operation theatres are fully operational for emergency and scheduled surgeries.
+
+surgery: Surgery schedules are provided after consultation with specialists.
+
+cafeteria: The hospital cafeteria is located on the ground floor and is open from 7 AM to 9 PM.
+
+parking: Parking facilities are available for patients and visitors.
+
+wifi: Free WiFi is available inside the hospital premises.
+
+medical records: Medical records can be requested from the administration office.
+
+contact number: You can contact hospital reception at 9876543210.
+
+hospital address: City Hospital is located near Central City Road.
+
+blood bank: Blood bank services are available twenty four hours.
+
+organ donation: Please contact the transplant coordination department for organ donation information.
+
+health checkup: Full body health checkup packages are available.
+
+dialysis: Dialysis services are available in nephrology department.
+
+physiotherapy: Physiotherapy sessions are available by appointment.
+
+mental health: Mental health counseling services are available.
+
+psychiatrist: Psychiatry consultations are available every weekday.
+
+nutritionist: Nutrition and diet consultation services are available.
+
+wheelchair: Wheelchair support is available at the entrance.
+
+lost and found: Please contact reception for lost and found assistance.
+
+security: Security services are active twenty four hours.
+
+fire emergency: In case of fire emergency please follow staff instructions immediately.
+
+feedback: Patient feedback can be submitted at the reception or online portal.
+
+website: Visit our official website for more information and online appointments.
+
+default: Sorry, I could not understand your question. Please contact reception for further assistance.
+```

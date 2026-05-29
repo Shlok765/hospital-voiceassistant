@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>City Hospital Voice Assistant</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            padding: 40px;
+        }
+
+        .chat-box {
+            width: 550px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #messages {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+
+        .user {
+            color: blue;
+            margin-bottom: 10px;
+        }
+
+        .bot {
+            color: green;
+            margin-bottom: 10px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .send-btn {
+            background: #007bff;
+            color: white;
+        }
+
+        .mic-btn {
+            background: red;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="chat-box">
+
+        <h2>🏥 City Hospital Voice Assistant</h2>
+
+        <div id="messages"></div>
+
+        <div class="controls">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Type or speak..."
+            >
+
+            <button class="send-btn" onclick="sendMessage()">
+                Send
+            </button>
+
+            <button class="mic-btn" onclick="startListening()">
+                🎤
+            </button>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        const messages = document.getElementById("messages");
+
+        // SEND MESSAGE
+        async function sendMessage(messageText = null) {
+
+            let input = document.getElementById("userInput");
+
+            let message = messageText || input.value;
+
+            if (!message.trim()) return;
+
+            messages.innerHTML += `
+                <div class="user">
+                    <b>You:</b> ${message}
+                </div>
+            `;
+
+            let response = await fetch("/chat", {
+
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    message: message
+                })
+
+            });
+
+            let data = await response.json();
+
+            messages.innerHTML += `
+                <div class="bot">
+                    <b>Bot:</b> ${data.response}
+                </div>
+            `;
+
+            // BOT VOICE RESPONSE
+            let speech = new SpeechSynthesisUtterance(
+                data.response
+            );
+
+            speech.rate = 1;
+
+            speech.pitch = 1;
+
+            window.speechSynthesis.speak(speech);
+
+            messages.scrollTop = messages.scrollHeight;
+
+            input.value = "";
+        }
+
+        // VOICE INPUT
+        function startListening() {
+
+            const SpeechRecognition =
+                window.SpeechRecognition ||
+                window.webkitSpeechRecognition;
+
+            if (!SpeechRecognition) {
+
+                alert("Speech Recognition not supported");
+
+                return;
+            }
+
+            const recognition = new SpeechRecognition();
+
+            recognition.lang = "en-US";
+
+            recognition.start();
+
+            recognition.onstart = function() {
+
+                console.log("Listening...");
+            };
+
+            recognition.onresult = function(event) {
+
+                let transcript =
+                    event.results[0][0].transcript;
+
+                document.getElementById(
+                    "userInput"
+                ).value = transcript;
+
+                sendMessage(transcript);
+            };
+
+            recognition.onerror = function(event) {
+
+                console.log(event.error);
+
+                alert("Voice recognition error");
+            };
+        }
+
+    </script>
+
+</body>
+
+</html>
+
