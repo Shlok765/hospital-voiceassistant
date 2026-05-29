@@ -1,0 +1,39 @@
+hello: Hello! Welcome to City Hospital Reception. How can I assist you today?
+hi: Hi there! Welcome to City Hospital. How may I help you?
+hey: Hey! This is City Hospital Reception. What do you need?
+good morning: Good morning! Welcome to City Hospital. How can I assist you?
+good afternoon: Good afternoon! Welcome to City Hospital. How may I help you?
+good evening: Good evening! Welcome to City Hospital. How can I assist you?
+what are your visiting hours: Our visiting hours are from 8:00 AM to 8:00 PM daily. Please note that ICU visiting hours are restricted to 10:00 AM to 12:00 PM and 4:00 PM to 6:00 PM.
+what are visiting hours: Our visiting hours are from 8:00 AM to 8:00 PM daily. ICU visiting hours are 10:00 AM to 12:00 PM and 4:00 PM to 6:00 PM.
+when are you open: We are open 24 hours for emergencies. Regular outpatient services are available from 8:00 AM to 6:00 PM, Monday through Saturday.
+emergency services: Our emergency department is open 24/7 for all medical emergencies.
+what is your address: City Hospital is located at 123 Health Avenue, Medical District, Cityville 12345.
+where are you located: We are located at 123 Health Avenue, Medical District, Cityville 12345.
+how to reach you: You can reach us by phone at (555) 123-4567 or visit us at 123 Health Avenue, Medical District, Cityville 12345.
+what is your phone number: Our main reception number is (555) 123-4567. For emergencies, dial (555) 987-6543.
+what doctors are available: We have specialists in Cardiology, Neurology, Orthopedics, Pediatrics, Gynecology, Dermatology, and General Medicine. Would you like to know about a specific department?
+cardiology doctors: Our Cardiology department has Dr. Smith (available Mon, Wed, Fri 9AM-1PM), Dr. Johnson (Tue, Thu 2PM-6PM), and Dr. Williams (Sat 10AM-2PM).
+neurology doctors: Our Neurology department features Dr. Davis (Mon, Wed, Fri 10AM-2PM), Dr. Miller (Tue, Thu 9AM-1PM), and Dr. Wilson (Sat 11AM-3PM).
+orthopedics doctors: Orthopedics department includes Dr. Brown (Mon, Wed, Fri 8AM-12PM), Dr. Jones (Tue, Thu 1PM-5PM), and Dr. Taylor (Sat 9AM-1PM).
+pediatrics doctors: Pediatrics department has Dr. Anderson (Mon, Wed, Fri 9AM-1PM), Dr. Thomas (Tue, Thu 2PM-6PM), and Dr. Jackson (Sat 10AM-2PM).
+gynecology doctors: Gynecology department features Dr. White (Mon, Wed, Fri 10AM-2PM), Dr. Harris (Tue, Thu 9AM-1PM), and Dr. Martin (Sat 11AM-3PM).
+dermatology doctors: Dermatology department includes Dr. Garcia (Mon, Wed, Fri 8AM-12PM), Dr. Martinez (Tue, Thu 1PM-5PM), and Dr. Robinson (Sat 9AM-1PM).
+general medicine doctors: General Medicine department has Dr. Clark (Mon, Wed, Fri 9AM-1PM), Dr. Lewis (Tue, Thu 2PM-6PM), and Dr. Walker (Sat 10AM-2PM).
+what timings are available for doctor appointment: Appointment timings vary by doctor. Generally, consultations are available from 9:00 AM to 5:00 PM. Would you like to check availability for a specific department or doctor?
+how to book an appointment: You can book an appointment by calling our reception at (555) 123-4567, using our online portal at www.cityhospital.gov/book, or visiting us in person.
+do you accept insurance: Yes, we accept most major insurance plans including Medicare, Medicaid, Blue Cross Blue Shield, UnitedHealthcare, Aetna, and Cigna. Please bring your insurance card and ID.
+what insurance do you accept: We accept Medicare, Medicaid, Blue Cross Blue Shield, UnitedHealthcare, Aetna, Cigna, and most other major insurance plans.
+what documents do i need: Please bring a valid photo ID, your insurance card, any referral documents, and a list of current medications.
+what are your covid protocols: We follow strict COVID-19 protocols including mandatory masking, temperature checks at entry, social distancing in waiting areas, and regular sanitization. Vaccination proof may be required for certain procedures.
+how much does a consultation cost: Consultation fees vary by specialist and insurance coverage. General consultations typically range from $75-$150. Please check with your insurance provider for coverage details.
+where is the pharmacy: Our hospital pharmacy is located on the ground floor near the main entrance, open from 7:00 AM to 9:00 PM daily.
+where is the laboratory: The laboratory is on the second floor, wing B, open 24/7 for emergency tests and 7:00 AM to 7:00 PM for routine tests.
+where is radiology: Radiology department is on the third floor, wing A, open 24/7 for emergencies and 8:00 AM to 6:00 PM for scheduled appointments.
+where is cafeteria: Our cafeteria is located in the basement, open from 6:00 AM to 8:00 PM serving meals, snacks, and beverages.
+where is parking: We have free parking available in lots A and B (front entrance) and lot C (rear entrance). Valet parking is available at the main entrance for $10 per day.
+how to get medical records: You can request medical records by filling out a form at the reception, calling our medical records department at (555) 123-4568, or using our online patient portal.
+what is your website: Our website is www.cityhospital.gov where you can find doctor profiles, book appointments, and access patient resources.
+do you have ambulance services: Yes, we have 24/7 ambulance services equipped with life support systems. For emergency ambulance, dial (555) 987-6543.
+what is your blood bank timing: Our blood bank is open 24/7 for emergency donations and donations are accepted from 8:00 AM to 5:00 PM daily.
+default: I'm sorry, I didn't understand your question. Please try rephrasing or ask about visiting hours, doctor availability, appointment booking, insurance, or hospital facilities.
