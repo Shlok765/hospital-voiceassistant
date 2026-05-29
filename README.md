@@ -4,7 +4,7 @@ An AI-powered hospital receptionist assistant built using Flask, JavaScript Spee
 
 ## 🌐 Live Demo
 
-YOUR_RENDER_URL_HERE
+
 
 Example:
 
@@ -44,7 +44,7 @@ py -3.11 app.py
 
 Open:
 
-```txt
+
 http://127.0.0.1:5000
 ```
 
